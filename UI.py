@@ -18,7 +18,7 @@ if st.button("افحص الرابط 🔍"):
                 # -----------------------------------------------------
                 # لاحظ أننا نرسل البيانات كـ JSON كما يتوقع FastAPI
                 response = requests.post(
-                    "http://127.0.0.1:8000/predict", 
+                    "https://url-classification-project.onrender.com/predict", 
                     json={"url": url_input}
                 )
                 
